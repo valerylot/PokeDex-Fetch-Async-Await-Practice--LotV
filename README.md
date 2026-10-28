@@ -12,3 +12,6 @@ Your code is very clean and well organized. Good job using async and await.
 You shoudl include some error handling/ messages to let the user know the pokemon was not found or does not exist. A spot for "No pokemon searched yet" would also be good. 
 
 Overall great job using what we learned today to complete the assignment. 
+
+//Peer Review Name:Chris Estrada
+//Review: the site looks great! The information is cleanly displayed and the bg color and text are complementary and easy to read. I don;t know what it used to look like but you took a lot from today and implemented it well.
