@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Pokédex Fetch</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="text-center bg-fuchsia-100">
   <h1 class="text-[40px] pt-5 text-fuchsia-700 font-bold">Pokédex</h1>
 
@@ -15,21 +18,19 @@
   </form>
 
   <p id="status"></p>
-  <div id="pokemon-card" hidden class="flex flex-col border border-2 rounded-md w-75 mx-auto mt-5 p-5">
-    <img id="poke-sprites" alt="photo of pokemon" class="mx-auto w-50">
+  <div id="pokemon-card" hidden class="flex flex-col border border-2 rounded-md w-75 mx-auto mt-5 p-5 mb-3">
+    <!-- <img id="poke-sprites" alt="photo of pokemon" class="mx-auto w-50">
     <h2 id="poke-name" class="font-bold text-[20px]">Name:</h2>
     <p id="poke-id">id:</p>
     <p id="poke-height">Height:</p>
     <p id="poke-weight">Weight:</p>
     <p id="poke-types">Types:</p>
     <p id="poke-abilities">Abilities:</p>
-    <p id="poke-stats">Stats:</p>
+    <p id="poke-stats">Stats:</p> -->
   </div>
 
-  <!-- <h2>Team</h2>
-  <div id="team"></div> -->
 
   <script src="script.js"></script>
 </body>
-</html>
 
+</html>
